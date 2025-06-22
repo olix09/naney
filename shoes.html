@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Na-Ney Fashion - Shoes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script>
+  const toggle = document.getElementById('menu-toggle');
+  const navUl = document.querySelector('nav ul');
+
+  toggle.addEventListener('click', () => {
+    navUl.classList.toggle('open');
+  });
+</script>
+  <body>
+<nav>
+   <div class="menu-toggle" id="menu-toggle">&#9776;</div> <!-- Hamburger icon -->
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="coats.html">Coats</a></li>
+    <li><a href="tops.html">Tops</a></li>
+    <li><a href="dresses.html">Dresses</a></li>
+    <li><a href="shoes.html" class="active">Heels</a></li>
+    <li><a href="bags.html">Bags</a></li>
+    <li><a href="pants.html">Pants</a></li>
+    <li><a href="accessories.html">Accessories</a></li>
+    <li><a href="cart.html">Cart</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+    <header>
+      <h1>Na-Ney Fashion</h1>
+      <p>Explore Our Heels Collection</p>
+    </header>
+
+    <main>
+      <section class="coat-gallery">
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/h1.jpg"
+          data-size="M"
+          data-price="$39.99"
+        >
+          <img
+            src="img/accessories/h1.jpg"
+            alt="Summer Sandals"
+            class="imgg"
+          />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/s2.jpg"
+          data-size="M"
+          data-price="$29.99"
+        >
+          <img
+            src="img/accessories/s2.jpg"
+            alt="Casual Slip-ons"
+            class="imgg"
+          />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/s5.jpg"
+          data-size="M"
+          data-price="$29.99"
+        >
+          <img
+            src="img/accessories/s5.jpg"
+            alt="Casual Slip-ons"
+            class="imgg"
+          />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/s6.jpg"
+          data-size="M"
+          data-price="$29.99"
+        >
+          <img
+            src="img/accessories/s6.jpg"
+            alt="Casual Slip-ons"
+            class="imgg"
+          />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/s3.jpg"
+          data-size="M"
+          data-price="$29.99"
+        >
+          <img
+            src="img/accessories/s3.jpg"
+            alt="Casual Slip-ons"
+            class="imgg"
+          />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/s9.jpg"
+          data-size="M"
+          data-price="$29.99"
+        >
+          <img
+            src="img/accessories/s9.jpg"
+            alt="Casual Slip-ons"
+            class="imgg"
+          />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/s10.jpg"
+          data-size="M"
+          data-price="$29.99"
+        >
+          <img
+            src="img/accessories/s10.jpg"
+            alt="Casual Slip-ons"
+            class="imgg"
+          />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/s11.jpg"
+          data-size="M"
+          data-price="$29.99"
+        >
+          <img
+            src="img/accessories/s11.jpg"
+            alt="Casual Slip-ons"
+            class="imgg"
+          />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/s12.jpg"
+          data-size="M"
+          data-price="$29.99"
+        >
+          <img
+            src="img/accessories/s12.jpg"
+            alt="Casual Slip-ons"
+            class="imgg"
+          />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/s8.jpg"
+          data-size="M"
+          data-price="$29.99"
+        >
+          <img
+            src="img/accessories/s8.jpg"
+            alt="Casual Slip-ons"
+            class="imgg"
+          />
+        </a>
+       
+        <!-- Add more shoes as needed -->
+      </section>
+    </main>
+
+    <!-- Modal Popup -->
+ <div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <img id="modalImage" src="" alt="Product Image" />
+    <p id="modalSize" class="product-size"></p> <!-- size goes here -->
+    <p id="modalPrice" class="price"></p>
+    <label for="modalQuantity">Quantity:</label>
+    <input type="number" id="modalQuantity" value="1" min="1" />
+    <button id="addToCartBtn">Add to Cart</button>
+  </div>
+</div>
+
+    <footer>
+      <p>
+        &copy; 2025 Na-Ney Fashion |
+        <a href="https://t.me/LAMROT2121" target="_blank">Telegram</a> |
+        <a href="https://www.tiktok.com/@naney.fashion" target="_blank"
+          >TikTok</a
+        >
+        |
+        <a href="tel:+251961434825">Call Us</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

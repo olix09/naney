@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Na-Ney Fashion - Pants</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script>
+  const toggle = document.getElementById('menu-toggle');
+  const navUl = document.querySelector('nav ul');
+
+  toggle.addEventListener('click', () => {
+    navUl.classList.toggle('open');
+  });
+</script>
+  <body>
+<nav>
+   <div class="menu-toggle" id="menu-toggle">&#9776;</div> <!-- Hamburger icon -->
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="coats.html">Coats</a></li>
+    <li><a href="tops.html">Tops</a></li>
+    <li><a href="dresses.html">Dresses</a></li>
+    <li><a href="shoes.html">Heels</a></li>
+    <li><a href="bags.html">Bags</a></li>
+    <li><a href="pants.html" class="active">Pants</a></li>
+    <li><a href="accessories.html">Accessories</a></li>
+    <li><a href="cart.html">Cart</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+    <header>
+      <h1>Na-Ney Fashion</h1>
+      <p>Explore Our Pants Collection</p>
+    </header>
+
+    <main>
+      <section class="coat-gallery">
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/p1.jpg"
+          data-size="M"
+          data-price="$49.99"
+        >
+          <img src="img/accessories/p1.jpg" alt="Classic Jeans" class="imgg" />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/p2.jpg"
+          data-size="M"
+          data-price="$59.99"
+        >
+          <img src="img/accessories/p2.jpg" alt="Formal Trousers"class="imgg" />
+        </a>
+         <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/p3.jpg"
+          data-size="M"
+          data-price="$49.99"
+        >
+          <img src="img/accessories/p3.jpg" alt="Classic Jeans" class="imgg" />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/p4.jpg"
+          data-size="M"
+          data-price="$59.99"
+        >
+          <img src="img/accessories/p4.jpg" alt="Formal Trousers"class="imgg" />
+        </a>
+         <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/p5.jpg"
+          data-size="M"
+          data-price="$49.99"
+        >
+          <img src="img/accessories/p5.jpg" alt="Classic Jeans" class="imgg" />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/p6.jpg"
+          data-size="M"
+          data-price="$59.99"
+        >
+          <img src="img/accessories/p6.jpg" alt="Formal Trousers"class="imgg" />
+        </a>
+         <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/p.jpg"
+          data-size="M"
+          data-price="$49.99"
+        >
+          <img src="img/accessories/p.jpg" alt="Classic Jeans" class="imgg" />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/p8.jpg"
+          data-size="M"
+          data-price="$59.99"
+        >
+          <img src="img/accessories/p8.jpg" alt="Formal Trousers"class="imgg" />
+        </a>
+         <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/p9.jpg"
+          data-size="M"
+          data-price="$49.99"
+        >
+          <img src="img/accessories/p9.jpg" alt="Classic Jeans" class="imgg" />
+        </a>
+        <a
+          href="#"
+          class="product-link"
+          data-image="img/accessories/p10.jpg"
+          data-size="M"
+          data-price="$59.99"
+        >
+          <img src="img/accessories/p10.jpg" alt="Formal Trousers"class="imgg" />
+        </a>
+        <!-- Add more pants as needed -->
+      </section>
+    </main>
+
+    <!-- Modal Popup -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <img id="modalImage" src="" alt="Product Image" />
+    <p id="modalSize" class="product-size"></p> <!-- size goes here -->
+    <p id="modalPrice" class="price"></p>
+    <label for="modalQuantity">Quantity:</label>
+    <input type="number" id="modalQuantity" value="1" min="1" />
+    <button id="addToCartBtn">Add to Cart</button>
+  </div>
+</div>
+
+
+    <footer>
+      <p>
+        &copy; 2025 Na-Ney Fashion |
+        <a href="https://t.me/LAMROT2121" target="_blank">Telegram</a> |
+        <a href="https://www.tiktok.com/@naney.fashion" target="_blank"
+          >TikTok</a
+        >
+        |
+        <a href="tel:+251961434825">Call Us</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

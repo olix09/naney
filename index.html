@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Na-Ney Fashion</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <script>
+  const toggle = document.getElementById('menu-toggle');
+  const navUl = document.querySelector('nav ul');
+
+  toggle.addEventListener('click', () => {
+    navUl.classList.toggle('open');
+  });
+</script>
+  <body>
+<nav>
+   <div class="menu-toggle" id="menu-toggle">&#9776;</div> <!-- Hamburger icon -->
+  <ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="coats.html">Coats</a></li>
+    <li><a href="tops.html">Tops</a></li>
+    <li><a href="dresses.html">Dresses</a></li>
+    <li><a href="shoes.html">Heels</a></li>
+    <li><a href="bags.html">Bags</a></li>
+    <li><a href="pants.html">Pants</a></li>
+    <li><a href="accessories.html">Accessories</a></li>
+    <li><a href="cart.html">Cart</a></li> <!-- <- active page -->
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+    <header>
+      <h1>Welcome to Na-Ney Fashion</h1>
+      <p>
+        Discover our latest collections in coats, tops, dresses, heels, bags,
+        pants, and accessories.
+      </p>
+    </header>
+
+    <main>
+  <section>
+    <h2>Featured Categories</h2>
+    <div class="gallery">
+
+      <div class="category">
+        <a href="coats.html">
+          <img src="img/accessories/c2.jpg" alt="Coats" />
+          <p>Coats</p>
+        </a>
+      </div>
+
+      <div class="category">
+        <a href="tops.html">
+          <img src="img/accessories/t1.jpg" alt="Tops" />
+          <p>Tops</p>
+        </a>
+      </div>
+
+      <div class="category">
+        <a href="dresses.html">
+          <img src="img/accessories/d1.jpg" alt="Dresses" />
+          <p>Dresses</p>
+        </a>
+      </div>
+
+      <div class="category">
+        <a href="shoes.html">
+          <img src="img/accessories/h1.jpg" alt="Heels" />
+          <p>Heels</p>
+        </a>
+      </div>
+
+      <div class="category">
+        <a href="bags.html">
+          <img src="img/accessories/b1.jpg" alt="Bags" />
+          <p>Bags</p>
+        </a>
+      </div>
+
+      <div class="category">
+        <a href="pants.html">
+          <img src="img/accessories/p1.jpg" alt="Pants" />
+          <p>Pants</p>
+        </a>
+      </div>
+
+      <div class="category">
+        <a href="accessories.html">
+          <img src="img/accessories/acc3.jpg" alt="Accessories" />
+          <p>Accessories</p>
+        </a>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+    <footer>
+      <p>
+        &copy; 2025 Na-Ney Fashion |
+        <a href="https://t.me/LAMROT2121" target="_blank">Telegram</a> |
+        <a href="https://www.tiktok.com/@naney.fashion" target="_blank"
+          >TikTok</a
+        >
+        |
+        <a href="tel:+251961434825">Call Us</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
